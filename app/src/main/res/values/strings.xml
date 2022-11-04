@@ -8,7 +8,10 @@
     <string name="details_label">Szczegoly</string>
     <string name="done_label">Wykonane</string>
 
-
+    <string name="task_add_new">Nowe zadanie</string>
+    <string name="show_subtitle">Pokaz podtytul</string>
+    <string name="hide_subtitle">Ukryj podtytul</string>
+    <string name="subtitle_format">%1$d zadan</string>
 
 
 

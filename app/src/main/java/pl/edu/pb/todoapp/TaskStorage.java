@@ -15,8 +15,15 @@ public class TaskStorage {
             task.setName("Pilne zadanie numer" + i);
             task.setDone(i % 3 == 0);
             tasks.add(task);
+            if(i % 3 == 0) {
+                task.setCategory(Category.STUDIES);
+            } else {
+                task.setCategory(Category.HOME);
+            }
         }
     }
+
+    public void addTask(Task task){ tasks.add(task); }
 
     public static TaskStorage getInstance() {
         return taskStorage;

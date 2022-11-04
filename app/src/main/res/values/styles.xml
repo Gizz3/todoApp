@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="styl1" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FF9800</item>
+    </style>
+</resources>
